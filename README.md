@@ -39,13 +39,17 @@ ___
    2.Sau khi hoàn thành xong bất cứ tác vụ nào luôn nhớ commit và check nhật kí thường xuyên  
         > git log  
         > heroku logs  
-        
    3. Tạo một staic page   
-     Tạo và hủy controller StaticPages     
-        > rails generate controller StaticPages home help  
-        > rails destroy  controller StaticPages home help  
-      Tạo và hủy Model  
-        > rails generate model User name:string email:string  
+     -Tạo và hủy controller StaticPages     
+        > rails generate controller StaticPages home help.  
+        > rails destroy  controller StaticPages home help.  
+      -Tạo và hủy Model  
+        > rails generate model User name:string email:string.  
+        >rails detroy Model User  
+      -Custom static pages  
+       ' $ app/views/static_pages/home.html.erb '
+       ' $ app/views/static_pages/help.html.erb '
+
         
   
       
