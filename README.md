@@ -1,5 +1,4 @@
-# ruby_on_rails_basic
-
+# ruby_on_rails_basic  
 ## Chương_1 Xây dựng cài đặt ban đầu 
 1. Tạo một project mới sau khi cài đặt xong rails  
     > rails new Project  
@@ -30,25 +29,56 @@
 
 ___  
       
-## Chương_2  Một app đơn giản sơ bộ về sự hoạt đông của mô hình MVC
+## Chương_2  Một app đơn giản sơ bộ về sự hoạt đông của mô hình MVC  
+   #Tìm hiểu các thư mục trong Rails  
+   **app** : Đây là thư mục quan trọng nhất của project vì đây là nơi chứa phần lớn source code của ứng dụng, cũng là nơi mà bạn sẽ thao tác nhiều nhất trong quá trình phát triển ứng dụng Rails.*Thư mục này chứa các thư mục con* > controller : chứa các tập tin controller làm nhiệm vụ điều hướng các luồng chạy của ứng dụng. Các file controller bản chất là các file ruby nên có phần mở rộng .rb > models: là nơi chứa các đối tượng chính trong ứng dụng Rails, các model khi được tạo ra từ câu lệnh ' $ rails generate models '  
+   ~~
+
+
+
+
   
 ___  
 ## Chương_3 Các trang tĩnh  
    1. Sử dụng markdown để viết README  
-        https://gsviec.com/blog/huong-dan-su-dung-markdown  
-   2.Sau khi hoàn thành xong bất cứ tác vụ nào luôn nhớ commit và check nhật kí thường xuyên  
-        > git log  
-        > heroku logs  
-   3. Tạo một staic page   
+        ' https://gsviec.com/blog/huong-dan-su-dung-markdown '  
+   2. Sau khi hoàn thành xong bất cứ tác vụ nào luôn nhớ commit và check nhật kí thường xuyên  
+       ` $ git log ` 
+       ` $ heroku logs `  
+   3. Tạo một staic page  
      -Tạo và hủy controller StaticPages     
-        > rails generate controller StaticPages home help.  
-        > rails destroy  controller StaticPages home help.  
-      -Tạo và hủy Model  
-        > rails generate model User name:string email:string.  
-        >rails detroy Model User  
-      -Custom static pages  
-       ' $ app/views/static_pages/home.html.erb '
-       ' $ app/views/static_pages/help.html.erb '
+        ` $ rails generate controller StaticPages home help. `  
+        ` $ rails destroy  controller StaticPages home help. `  
+     -Tạo và hủy Model  
+        ` $ rails generate model User name:string email:string. ` 
+        ` $ rails detroy Model User `  
+     -Custom static pages  
+       ' app/views/static_pages/home.html.erb '
+       ' app/views/static_pages/help.html.erb '
+    
+   4. Router static pages  
+    -Trong config/routes.rb  
+      >  get  'static_pages/home'
+      >  get  'static_pages/help'.  
+    -Trên browser 
+      > localhost:3000/static_pages/help.  
+   5. Sữ dụng bộ test của rails  
+    ` $ rails test`  
+    ->
+   6. Dùng yeild để chèn tittle là cái cũ.  
+     > <% provide(:title, 'Home')%>  
+     > ~  
+     > <% yield(:title)%> 
+    
+   7.router người dẫn dường của rails *config/router.rb*  
+       '$ get 'static_pages/home' '  
+       
+## Chương_4 Sự ràng buộc của ruby với rails  
+    
+     
+   
+   
+      
 
         
   
