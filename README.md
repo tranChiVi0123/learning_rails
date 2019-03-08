@@ -1,6 +1,6 @@
 # ruby_on_rails_basic
 
-## Chương_1
+## Chương_1 Xây dựng cài đặt ban đầu 
 1. Tạo một project mới sau khi cài đặt xong rails  
     > rails new Project  
 2. Bật server  
@@ -28,9 +28,14 @@
  7. Heroku  
       *Heroku là một nền tảng được lưu trữ được xây dựng dành riêng cho việc triển khai Rails và các ứng dụng web khác. Heroku làm cho việc triển khai các ứng dụng Rails dễ dàng một cách lố bịch miễn là mã nguồn của bạn nằm dưới sự kiểm soát phiên bản với Git.*  
 
-
+___  
       
-## Chương_2  
-    
+## Chương_2  Một app đơn giản sơ bộ về sự hoạt đông của mô hình MVC
+  
+___  
+## Chương_3 Các trang tĩnh  
+    1. Sử dụng markdown để viết README.ME  
+      https://gsviec.com/blog/huong-dan-su-dung-markdown  
+      
     
 
