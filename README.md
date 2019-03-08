@@ -34,8 +34,13 @@ ___
   
 ___  
 ## Chương_3 Các trang tĩnh  
-    1. Sử dụng markdown để viết README.ME  
-      https://gsviec.com/blog/huong-dan-su-dung-markdown  
+   1. Sử dụng markdown để viết README.ME  
+        https://gsviec.com/blog/huong-dan-su-dung-markdown  
+   2.Sau khi hoàn thành xong bất cứ tác vụ nào luôn nhớ commit và check nhật kí thường xuyên  
+        > git log  
+        > heroku logs  
+   3. Tạo một staic page  
+        > rails generate controller StaticPages home help
       
     
 
