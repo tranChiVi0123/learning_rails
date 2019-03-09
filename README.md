@@ -71,9 +71,20 @@ ___
      > <% yield(:title)%> 
     
    7.router người dẫn dường của rails *config/router.rb*  
-       '$ get 'static_pages/home' '  
+       '$ get 'static_pages/home' '    
+  ___
+  
        
-## Chương_4 Sự ràng buộc của ruby với rails  
+## Chương_4 Sự ràng buộc của ruby với rails     
+___  
+
+## Chương_5 Layout với HTML5  
+   1. Sử dụng HTML5 định nghĩa layot  
+   2. Rails particals  
+   3. CSS và bootrap  
+   4 Biết thêm về SASS và SCSS  
+   5. Kiểm tra tích hợp mô phỏng hiểu quả trình duyệt  
+   
     
      
    
